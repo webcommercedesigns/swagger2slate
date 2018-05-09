@@ -3,7 +3,7 @@
 namespace m8rge\swagger;
 
 
-class Swagger extends Object
+class Swagger extends BaseObject
 {
     public static $root;
 

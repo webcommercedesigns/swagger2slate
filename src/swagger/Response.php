@@ -3,7 +3,7 @@
 namespace m8rge\swagger;
 
 
-class Response extends Object
+class Response extends BaseObject
 {
     /**
      * @var Schema

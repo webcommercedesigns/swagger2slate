@@ -3,7 +3,7 @@
 namespace m8rge\swagger;
 
 
-class SecurityScheme extends Object
+class SecurityScheme extends BaseObject
 {
     /**
      * @var string

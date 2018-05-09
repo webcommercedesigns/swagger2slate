@@ -3,7 +3,7 @@
 namespace m8rge\swagger;
 
 
-class Parameter extends Object
+class Parameter extends BaseObject
 {
     /**
      * @var string

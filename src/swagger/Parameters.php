@@ -5,7 +5,7 @@ namespace m8rge\swagger;
 
 use IteratorAggregate;
 
-class Parameters extends Object implements IteratorAggregate
+class Parameters extends BaseObject implements IteratorAggregate
 {
     /**
      * @var Parameter[]

@@ -3,7 +3,7 @@
 namespace m8rge\swagger;
 
 
-class Object // implements ArrayAccess
+class BaseObject // implements ArrayAccess
 {
     public function __construct($config = [])
     {

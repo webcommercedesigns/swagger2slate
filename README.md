@@ -1,3 +1,7 @@
+# Fork
+
+This is a fork of an awesome [E96/swagger2slate](https://github.com/E96/swagger2slate) tweaked to work with PHP 7.3
+
 # How to create html docs using swagger
 
 * Store your api documentation with your code.

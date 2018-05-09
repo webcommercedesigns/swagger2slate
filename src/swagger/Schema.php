@@ -3,7 +3,7 @@
 namespace m8rge\swagger;
 
 
-class Schema extends Object
+class Schema extends BaseObject
 {
     /**
      * @var string
