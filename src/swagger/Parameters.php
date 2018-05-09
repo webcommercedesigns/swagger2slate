@@ -2,7 +2,6 @@
 
 namespace m8rge\swagger;
 
-
 use IteratorAggregate;
 
 class Parameters extends BaseObject implements IteratorAggregate
@@ -14,7 +13,9 @@ class Parameters extends BaseObject implements IteratorAggregate
 
     public function __set($name, $value)
     {
-        $this->parameters[$value['name']] = new Parameter($value);
+        if (isset($value['name'])) {
+            $this->parameters[$value['name']] = new Parameter($value);
+        }
     }
 
     function __get($name)
