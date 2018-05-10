@@ -1,6 +1,6 @@
 # Fork
 
-This is a fork of an awesome [E96/swagger2slate](https://github.com/E96/swagger2slate) tweaked to work with PHP 7.3
+This is a fork of an awesome [E96/swagger2slate](https://github.com/E96/swagger2slate) tweaked to work with PHP 7.2
 
 # How to create html docs using swagger
 
